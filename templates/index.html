@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Chatbot on LLMs</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #f0f4ff, #d9eaff);
+            color: #333;
+        }
+        #header {
+            text-align: center;
+            background-color: #0047ab;
+            color: white;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        #header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            letter-spacing: 2px;
+        }
+        .content {
+            text-align: center;
+            margin: 20px auto;
+            max-width: 800px;
+        }
+        .content h2 {
+            color: #0047ab;
+            font-size: 1.8em;
+        }
+        .content p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            margin: 10px 0;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #0047ab;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        footer p {
+            margin: 0;
+            font-size: 1em;
+        }
+        df-messenger {
+            z-index: 999;
+            position: fixed;
+            --df-messenger-font-color: #000;
+            --df-messenger-font-family: Google Sans;
+            --df-messenger-chat-background: #f3f6fc;
+            --df-messenger-message-user-background: #d3e3fd;
+            --df-messenger-message-bot-background: #fff;
+            bottom: 16px;
+            right: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h1>Demo Chatbot on LLMs</h1>
+    </div>
+
+    <div class="content">
+        <h2>Welcome to the LLM Chatbot Demo</h2>
+        <p>This chatbot is designed to showcase the power of Large Language Models (LLMs). Feel free to ask any questions and explore its capabilities!</p>
+        <p>Powered by Dialogflow and seamlessly integrated into this webpage for an interactive experience.</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 LLM Chatbot Demo. All Rights Reserved.</p>
+    </footer>
+
+    <link rel="stylesheet" href="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/themes/df-messenger-default.css">
+    <script src="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js"></script>
+    <df-messenger
+      project-id="indigo-octagon-442019-h9"
+      agent-id="2cfc59a1-ddef-4ba2-8f9a-b1bf1d741188"
+      language-code="en"
+      max-query-length="-1">
+      <df-messenger-chat-bubble chat-title="My-agent">
+      </df-messenger-chat-bubble>
+    </df-messenger>
+</body>
+</html>

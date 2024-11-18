@@ -1,4 +1,4 @@
-## Custom ChatBot On Specific LLM Research Papers Using gemini-1.5-flash-002 Base Model
+## Custom ChatBot On Specific LLM Research Papers Using gemini-1.5-flash-002 And DialogFlow
 
 ## Project Explination
 - This project demonstrates a simple, interactive chatbot application leveraging Large Language Models (LLMs) i.e., gemini-1.5-flash-002 Base Model Using Vertex AI and Dailogflow. 

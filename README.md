@@ -18,6 +18,9 @@ Enhance the chatbot's responses by integrating custom-trained ML models.
 
 ## Output Screenshots
 
+#### Chatbot Response on General Query
 ![C1](https://github.com/user-attachments/assets/c40c7649-3350-4fc9-b13e-41a825f8e491)
 
+
+#### Chatbot Response on Custom doman Trained Data
 ![C2](https://github.com/user-attachments/assets/1d1f80bd-099e-4f55-b102-1c25ce1c6bbd)

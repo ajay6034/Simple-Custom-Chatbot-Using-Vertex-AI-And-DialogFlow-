@@ -15,3 +15,9 @@ Enhance the chatbot's responses by integrating custom-trained ML models.
 - Styling: Designed with CSS for a modern and user-friendly interface.
 - Dialogflow Integration: Embedded Dialogflow messenger for chatbot interactions.
 - Customizable Chat UI: Includes custom styles for user and bot messages.
+
+## Output Screenshots
+
+![C1](https://github.com/user-attachments/assets/c40c7649-3350-4fc9-b13e-41a825f8e491)
+
+![C2](https://github.com/user-attachments/assets/1d1f80bd-099e-4f55-b102-1c25ce1c6bbd)
